@@ -155,7 +155,7 @@ public class cdCollection extends javax.swing.JFrame {
             outputField.setText(outputField.getText()+cdCollection.get(i)+"\n");
         }
     }//GEN-LAST:event_addButtonActionPerformed
-
+    //wow
     private void removeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_removeButtonActionPerformed
         int index = Collections.binarySearch(cdCollection, inputField.getText());
         if(index > -1){
